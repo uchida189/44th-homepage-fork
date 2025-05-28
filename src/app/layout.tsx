@@ -1,10 +1,10 @@
 import type { Metadata } from 'next';
-import Footer from './components/footer';
-import Header from './components/header';
-import ReturnTopButton from './components/return_top_button';
+import Footer from '../components/footer';
+import Header from '../components/header';
+import MoveClouds from '../components/move_clouds';
+import ReturnTopButton from '../components/return_top_button';
+import { newTegomin, notoSansJP } from '../utils/fonts';
 import './globals.css';
-import { newTegomin, notoSansJP } from './utils/fonts';
-import MoveClouds from './components/move_clouds';
 
 export const metadata: Metadata = {
   title: 'Create Next App',
